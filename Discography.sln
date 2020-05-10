@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.572
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.19
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discography", "Discography\Discography.csproj", "{F9ED68AF-785C-4991-8FF9-B5CE66E2C3A4}"
 EndProject
@@ -11,7 +11,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceClient.Models", "Ser
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceClient.Contracts", "ServiceClient.Contracts\ServiceClient.Contracts.csproj", "{CD906126-F902-419F-B5D2-46537C5AE233}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discography.Tests", "Discography.Tests\Discography.Tests.csproj", "{7DF19DFF-794E-4D38-8D5C-573943492FE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discography.Tests", "Discography.Tests\Discography.Tests.csproj", "{7DF19DFF-794E-4D38-8D5C-573943492FE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{132A846C-A62B-4137-96BF-FA851960523A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
